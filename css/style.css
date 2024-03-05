@@ -276,14 +276,14 @@ html {
     right: 0px;
     font-size: 14px;
 }
-/* Estas clases se agregan dinamicamente mediante jacascript */
+/* Estas clases se agregan dinamicamente mediante javascript */
 .skills .skill .htmlcss {
     width: 0%;
     animation: 2s htmlcss forwards;
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .angular {
@@ -292,7 +292,7 @@ html {
 }
 @keyframes angular {
     0%{width: 0%;}
-    100%{width: 37%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .javascript {
@@ -311,6 +311,15 @@ html {
 @keyframes java {
     0%{width: 0%;}
     100%{width: 70%;}
+}
+
+.skills .skill .wordpress {
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+@keyframes wordpress {
+    0%{width: 0%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .comunicacion {
@@ -346,7 +355,7 @@ html {
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .proyect {
